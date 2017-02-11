@@ -157,49 +157,106 @@
     </section>
 
     <section id="portfolio">
-        <h2 class="section-title">our portfolio</h2>
-        <p class="section-lead">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br>
-        consectetur, adipisci velit, sed quia no numquiam</p>
-        <div class="selector">
-            <ul>
-                <li class="selected">all</li>
-                <li>web</li>
-                <li>apps</li>
-                <li>icons</li>
-            </ul>
+        <div class="container">
+            <h2 class="section-title">our portfolio</h2>
+            <p class="section-lead">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br>
+            consectetur, adipisci velit, sed quia no numquiam</p>
+            <div class="selector">
+                <ul>
+                    <li class="selected">all</li>
+                    <li>web</li>
+                    <li>apps</li>
+                    <li>icons</li>
+                </ul>
+            </div>
+            <div class="portfolio-pieces">
+                <div class="piece">
+                    <img src="images/portfolio1.png" alt="isometric perspective mock-up">
+                    <p class="piece-title">isometric perspective mock-up</p>
+                </div>
+                <div class="piece">
+                    <img src="images/portfolio2.png" alt="time zone app ui">
+                    <p class="piece-title">time zone app ui</p>
+                </div>
+                <div class="piece">
+                    <img src="images/portfolio3.png" alt="viro media players ui">
+                    <p class="piece-title">viro media players ui</p>
+                </div>
+                <div class="piece">
+                    <img src="images/portfolio4.png" alt="blog / magazine flat ui kit">
+                    <p class="piece-title">blog / magazine flat ui kit</p>
+                </div>
+            </div>
+            <button type="button">load more projects</button>
         </div>
-        <div class="portfolio-pieces">
-            <div class="piece">
-                <img src="images/portfolio1.png" alt="isometric perspective mock-up">
-                <p class="piece-title">isometric perspective mock-up</p>
-            </div>
-            <div class="piece">
-                <img src="images/portfolio2.png" alt="time zone app ui">
-                <p class="piece-title">time zone app ui</p>
-            </div>
-            <div class="piece">
-                <img src="images/portfolio3.png" alt="viro media players ui">
-                <p class="piece-title">viro media players ui</p>
-            </div>
-            <div class="piece">
-                <img src="images/portfolio4.png" alt="blog / magazine flat ui kit">
-                <p class="piece-title">blog / magazine flat ui kit</p>
-            </div>
-        </div>
-        <button type="button">load more projects</button>
     </section>
 
     <section id="testimonial">
-        <h2 class="section-title">what people say about us</h2>
-        <p class="section-lead">Our clients love us!</p>
+        <div class="container">
+            <h2 class="section-title">what people say about us</h2>
+            <p class="section-lead">Our clients love us!</p>
+            <div class="testimonial-wrapper">
+                <div class="a-testimonial">
+                    <div class="testimonial-image"></div>
+                    <div class="testimonial-text">
+                        <p>"Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque."</p>
+                        <h3 class="testimonial-name">chanel iman</h3>
+                        <h5 class="testimonial-title">CEO of Pinterest</h5>
+                    </div>
+                </div>
+                <div class="a-testimonial">
+                    <div class="testimonial-image"></div>
+                    <div class="testimonial-text">
+                        <p>"Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta."</p>
+                        <h3 class="testimonial-name">adriana lima</h3>
+                        <h5 class="testimonial-title">Founder of Instagram</h5>
+                    </div>
+                </div>
+                <div class="a-testimonial">
+                    <div class="testimonial-image"></div>
+                    <div class="testimonial-text">
+                        <p>"Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta."</p>
+                        <h3 class="testimonial-name">anne hathaway</h3>
+                        <h5 class="testimonial-title">Lead Designer at Behance</h5>
+                    </div>
+                </div>
+                <div class="a-testimonial">
+                    <div class="testimonial-image"></div>
+                    <div class="testimonial-text">
+                        <p>"Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque."</p>
+                        <h3 class="testimonial-name">emma stone</h3>
+                        <h5 class="testimonial-title">Co-Founder of Shazam</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="contact">
-        <h2 class="section-title">get in touch</h2>
-        <p class="section-lead">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+        <div class="container">
+            <h2 class="section-title">get in touch</h2>
+            <p class="section-lead">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111</p>
+            <form class="contact-form" action="index.html" method="post">
+                <input type="text" name="name" id="name" placeholder="Your Name" required>
+                <input type="text" name="email" id="email" placeholder="Your Email" required>
+                <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+            </form>
+            <button type="button">send message</button>
+        </div>
     </section>
 
     <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Google+</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Behance</a></li>
+                <li><a href="#">Dribbble</a></li>
+                <li><a href="#">GitHub</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
