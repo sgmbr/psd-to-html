@@ -1,0 +1,111 @@
+/* RESET */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    /* Cancel out some differences between browser defaults */
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+* {
+    /* The width of an element will be the size of its border box, not its content box (which is the normal default). */
+    box-sizing: border-box;
+}
+
+main {
+    /* Make sure the browser knows how to display the HTML5 main element. */
+    display: block;
+}
+
+
+/* LAYOUT */
+
+.container {
+    width: 72rem;
+    margin: 0 auto;
+}
+
+#lead {
+    height: 56rem;
+}
+
+.tagline {
+    width: 43rem;
+    padding-top: 10.5rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.play-icon {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 17rem;
+}
+
+#lead button {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* TYPOGRAPHY */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 3.75rem;
+    font-weight: 300;
+    margin-bottom: 0.75rem;
+}
+
+p {
+    line-height: 2;
+}
+
+button {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.tagline {
+    text-align: center;
+}
+
+.tagline p {
+    font-style: italic;
+}
+
+
+/* COLOUR SCHEME & BORDERS */
+
+.tagline {
+    color: #fff;
+}
+
+button {
+    color: #fff;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
+    padding: 1.5rem 5rem;
+}
+
+#lead button {
+    background-color: #7accc8;
+}
+
+
+/* NAVIGATION */
+/* IMAGES & VIDEOS */
+
+#lead {
+    background-image: url(../images/lead-img.jpg);
+    background-size: cover;
+}
+
+
+/* MEDIA QUERIES */
