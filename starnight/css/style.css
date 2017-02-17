@@ -147,6 +147,9 @@ button {
     position: absolute;
     top: 4rem;
     left: 46.75rem;
+}
+
+#download {
     overflow: hidden;
 }
 
